@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body mass index</title>
+</head>
+<body>
+    <h1>Body mass index</h1>
+    <form action="/" method="POST">
+    <p>
+        <input type="text" pattern="^\d+$" name="weight" placeholder="Enter your weight">
+    </p>
+    <p>
+        <input type="text" pattern="^\d+$" name="growth" placeholder="Enter tour growth (cm)">
+    </p>
+    <p>
+        <button type="submit" name="submit">Calculate</button>
+    </p>
+    </form>
+    <p id="result"></p>
+</body>
+</html>
